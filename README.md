@@ -1,81 +1,13 @@
+# RSS Builder by B!Soft MarkBook RSS Feed
 
-# Note
-This project has not been updated in the last month and does not work with the current version of quivr because of the huge api changes. 
-
-# Quivr - Mobile
-
-The Quivr React Native Client is a mobile application built using React Native that provides users with the ability to upload files and engage in chat conversations using the [Quivr backend API](https://github.com/stangirard/quivr).
-
-https://github.com/iMADi-ARCH/quivr-mobile/assets/61308761/878da303-b056-4c14-a3c4-f29e7e375d45
-
-## Tech used
-
-- React Native (with expo)
-- React Native Paper
-- React Native Navigation
-
-## Features
-
-- File Upload: Users can easily upload files to the Quivr backend API using the client.
-- Chat with your brain: Talk to a language model about your uploaded data
-
-## Installation
-
-Follow the steps below to install and run the Quivr React Native Client:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/iMADi-ARCH/quivr-mobile.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd quivr-mobile
-```
-
-3. Install the required dependencies:
-
-```bash
-yarn install
-```
-
-4. Set environment variables: Change the variables inside `.envrc.example` file with your own.
-
-   a. **Option A**: Using `direnv`
-
-   1. Install direnv - https://direnv.net/#getting-started
-   2. Copy `.envrc.example` to `.envrc`
-
-      ```bash
-      cp .envrc.example .envrc
-      ```
-
-   3. Allow reading `.envrc`
-      ```bash
-      direnv allow .
-      ```
-
-   b. **Option B**: Set system wide environment variables by copying the content of `.envrc` and placing it at the bottom of your shell file e.g. `.bashrc` or `.zshrc`
-
-5. Configure the backend API endpoints:
-   Open the `config.ts` file and update the `BACKEND_PORT` and `PROD_BACKEND_DOMAIN` constants with the appropriate values corresponding to your Quivr backend.
-
-6. Run the application:
-
-```bash
-yarn expo start
-```
-
-Then you can press `a` to run the app on an android emulator (given you already have Android studio setup)
-
-## Contributing
-
-Contributions to the Quivr React Native Client are welcome! If you encounter any issues or want to add features, please open an issue on the GitHub repository.
-
-When contributing code, please follow the existing coding style and submit a pull request for review.
-
-## Special Thanks
-
-- [Stan Girard](https://github.com/stangirard) for making such a wonderful api 🫶
+https://www.markbook.com MarkBook RSS Feed. Keep up to date on the latest news. en-us mrichardson@acadiemgroup.com The Acadiem Group 2020 NEW MarkBook HTML5 is Here! 10 Oct 2020 10:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News Our ALL NEW MarkBook HTML5 Web Application is Here! Flash or Flex is no longer required. Many added features in a clean new look. Now you can use MarkBook on your Chromebook, Android or iPadOS tablet as well as Windows, macOS or Linux devices. (Select tablets only) A new version of the app, 1.1.0 22 Dec 2020 16:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.1.0, has been launched. It contains a major security update. Please see the Release Notes for the details. A new version of the app, 1.2.0 26 Jan 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.2.0, has been launched. You can now Copy Comments to many students at once and easily input entries on tablets using Numeric Keypad. Please see the Release Notes for the details. A new version of the app, 1.3.0 25 Mar 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.3.0, has been launched. Please see the Release Notes for the details. A new version of the app, 1.4.0 30 Apr 2021 08:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.4.0, has been launched. Please see the Release Notes for the details. For TDSB users 6 Aug 2021 08:00:00 -0400 http://tdsb.on.ca/ mrichardson@acadiemgroup.com News TDSB users: In preparation for Single Sign On service in September, all usernames now use your Toronto District School Board email address. TDSB-logo.png Attention TDSB Users 18 Sep 2021 01:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News On Saturday September 18th, Single Sign On (SSO) will be implemented for TDSB MarkBook (Cloud) users. After the implementation is completed, teachers will be required to sign onto MarkBook using their TDSB e- mail address and password. Teachers that are already signing onto MarkBook with their TDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TDSB-logo.png For TVDSB Users 09 Sep 2022 01:00:00 -0400 
+https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) was implemented for TVDSB MarkBook (Cloud) users. Teachers are now required to sign onto MarkBook using their TVDSB e-mail address and password in the Microsoft 365 Apps environment. Please follow the Information Guidesheet for "Transfer from Individual to Corporate Domain using SSO in MarkBook®”. Teachers that are already signing onto MarkBook with their TVDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
+https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
